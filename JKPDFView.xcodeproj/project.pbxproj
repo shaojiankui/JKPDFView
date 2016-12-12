@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B83385281DF95EF300BF8105 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B83385271DF95EF300BF8105 /* main.m */; };
+		B833852B1DF95EF300BF8105 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B833852A1DF95EF300BF8105 /* AppDelegate.m */; };
+		B833852E1DF95EF300BF8105 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B833852D1DF95EF300BF8105 /* ViewController.m */; };
+		B83385311DF95EF300BF8105 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B833852F1DF95EF300BF8105 /* Main.storyboard */; };
+		B83385331DF95EF300BF8105 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B83385321DF95EF300BF8105 /* Assets.xcassets */; };
+		B83385361DF95EF300BF8105 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B83385341DF95EF300BF8105 /* LaunchScreen.storyboard */; };
+		B87E87E41DFAB706008EB83A /* JKPDFViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B87E87E31DFAB706008EB83A /* JKPDFViewItem.m */; };
+		B8A8E8C41DFE5A98005A68A0 /* JKFilePreviewer.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A8E8C11DFE5A98005A68A0 /* JKFilePreviewer.m */; };
+		B8AD543E1DFA4DD6003D60D9 /* Adobe Acrobat 9.0中文教程.pdf in Resources */ = {isa = PBXBuildFile; fileRef = B8AD543D1DFA4DD6003D60D9 /* Adobe Acrobat 9.0中文教程.pdf */; };
+		B8AD54481DFA535D003D60D9 /* JKPDFView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8AD54471DFA535D003D60D9 /* JKPDFView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B83385231DF95EF300BF8105 /* JKPDFView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKPDFView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B83385271DF95EF300BF8105 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B83385291DF95EF300BF8105 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B833852A1DF95EF300BF8105 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B833852C1DF95EF300BF8105 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B833852D1DF95EF300BF8105 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B83385301DF95EF300BF8105 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B83385321DF95EF300BF8105 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B83385351DF95EF300BF8105 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B83385371DF95EF300BF8105 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B87E87E21DFAB706008EB83A /* JKPDFViewItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKPDFViewItem.h; sourceTree = "<group>"; };
+		B87E87E31DFAB706008EB83A /* JKPDFViewItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKPDFViewItem.m; sourceTree = "<group>"; };
+		B8A8E8C01DFE5A98005A68A0 /* JKFilePreviewer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKFilePreviewer.h; sourceTree = "<group>"; };
+		B8A8E8C11DFE5A98005A68A0 /* JKFilePreviewer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKFilePreviewer.m; sourceTree = "<group>"; };
+		B8AD543D1DFA4DD6003D60D9 /* Adobe Acrobat 9.0中文教程.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Adobe Acrobat 9.0中文教程.pdf"; sourceTree = "<group>"; };
+		B8AD54461DFA535D003D60D9 /* JKPDFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKPDFView.h; sourceTree = "<group>"; };
+		B8AD54471DFA535D003D60D9 /* JKPDFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKPDFView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B83385201DF95EF300BF8105 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B833851A1DF95EF300BF8105 = {
+			isa = PBXGroup;
+			children = (
+				B83385251DF95EF300BF8105 /* JKPDFView */,
+				B83385241DF95EF300BF8105 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B83385241DF95EF300BF8105 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B83385231DF95EF300BF8105 /* JKPDFView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B83385251DF95EF300BF8105 /* JKPDFView */ = {
+			isa = PBXGroup;
+			children = (
+				B8AD54451DFA5354003D60D9 /* JKPDFView */,
+				B8AD543D1DFA4DD6003D60D9 /* Adobe Acrobat 9.0中文教程.pdf */,
+				B83385291DF95EF300BF8105 /* AppDelegate.h */,
+				B833852A1DF95EF300BF8105 /* AppDelegate.m */,
+				B833852C1DF95EF300BF8105 /* ViewController.h */,
+				B833852D1DF95EF300BF8105 /* ViewController.m */,
+				B833852F1DF95EF300BF8105 /* Main.storyboard */,
+				B8A8E8C01DFE5A98005A68A0 /* JKFilePreviewer.h */,
+				B8A8E8C11DFE5A98005A68A0 /* JKFilePreviewer.m */,
+				B83385321DF95EF300BF8105 /* Assets.xcassets */,
+				B83385341DF95EF300BF8105 /* LaunchScreen.storyboard */,
+				B83385371DF95EF300BF8105 /* Info.plist */,
+				B83385261DF95EF300BF8105 /* Supporting Files */,
+			);
+			path = JKPDFView;
+			sourceTree = "<group>";
+		};
+		B83385261DF95EF300BF8105 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B83385271DF95EF300BF8105 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B8AD54451DFA5354003D60D9 /* JKPDFView */ = {
+			isa = PBXGroup;
+			children = (
+				B8AD54461DFA535D003D60D9 /* JKPDFView.h */,
+				B8AD54471DFA535D003D60D9 /* JKPDFView.m */,
+				B87E87E21DFAB706008EB83A /* JKPDFViewItem.h */,
+				B87E87E31DFAB706008EB83A /* JKPDFViewItem.m */,
+			);
+			path = JKPDFView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B83385221DF95EF300BF8105 /* JKPDFView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B833853A1DF95EF300BF8105 /* Build configuration list for PBXNativeTarget "JKPDFView" */;
+			buildPhases = (
+				B833851F1DF95EF300BF8105 /* Sources */,
+				B83385201DF95EF300BF8105 /* Frameworks */,
+				B83385211DF95EF300BF8105 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JKPDFView;
+			productName = JKPDFView;
+			productReference = B83385231DF95EF300BF8105 /* JKPDFView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B833851B1DF95EF300BF8105 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Jakey;
+				TargetAttributes = {
+					B83385221DF95EF300BF8105 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B833851E1DF95EF300BF8105 /* Build configuration list for PBXProject "JKPDFView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B833851A1DF95EF300BF8105;
+			productRefGroup = B83385241DF95EF300BF8105 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B83385221DF95EF300BF8105 /* JKPDFView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B83385211DF95EF300BF8105 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B83385361DF95EF300BF8105 /* LaunchScreen.storyboard in Resources */,
+				B83385331DF95EF300BF8105 /* Assets.xcassets in Resources */,
+				B83385311DF95EF300BF8105 /* Main.storyboard in Resources */,
+				B8AD543E1DFA4DD6003D60D9 /* Adobe Acrobat 9.0中文教程.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B833851F1DF95EF300BF8105 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B87E87E41DFAB706008EB83A /* JKPDFViewItem.m in Sources */,
+				B833852E1DF95EF300BF8105 /* ViewController.m in Sources */,
+				B833852B1DF95EF300BF8105 /* AppDelegate.m in Sources */,
+				B8AD54481DFA535D003D60D9 /* JKPDFView.m in Sources */,
+				B8A8E8C41DFE5A98005A68A0 /* JKFilePreviewer.m in Sources */,
+				B83385281DF95EF300BF8105 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B833852F1DF95EF300BF8105 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B83385301DF95EF300BF8105 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B83385341DF95EF300BF8105 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B83385351DF95EF300BF8105 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B83385381DF95EF300BF8105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B83385391DF95EF300BF8105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B833853B1DF95EF300BF8105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JKPDFView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.skyfox.JKPDFView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B833853C1DF95EF300BF8105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JKPDFView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.skyfox.JKPDFView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B833851E1DF95EF300BF8105 /* Build configuration list for PBXProject "JKPDFView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B83385381DF95EF300BF8105 /* Debug */,
+				B83385391DF95EF300BF8105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B833853A1DF95EF300BF8105 /* Build configuration list for PBXNativeTarget "JKPDFView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B833853B1DF95EF300BF8105 /* Debug */,
+				B833853C1DF95EF300BF8105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B833851B1DF95EF300BF8105 /* Project object */;
+}

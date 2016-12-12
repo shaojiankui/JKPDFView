@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zvG-wc-qVx">
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c3D-Ia-1Oa" customClass="JKPDFView">
+                                <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m0X-sV-ZpD">
+                                <color key="backgroundColor" red="0.1176470588" green="0.64313725489999995" blue="0.22352941179999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="xRM-72-UIz"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="touched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="F2A-G7-O8Y"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="zvG-wc-qVx" secondAttribute="trailing" id="3fv-Nz-EN8"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="zvG-wc-qVx" secondAttribute="bottom" id="634-kP-QJF"/>
+                            <constraint firstAttribute="trailing" secondItem="m0X-sV-ZpD" secondAttribute="trailing" id="GaR-JK-od9"/>
+                            <constraint firstAttribute="trailing" secondItem="c3D-Ia-1Oa" secondAttribute="trailing" id="TRb-do-lm0"/>
+                            <constraint firstItem="c3D-Ia-1Oa" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Vlp-W2-A6E"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="c3D-Ia-1Oa" secondAttribute="bottom" id="X70-lt-8rc"/>
+                            <constraint firstItem="m0X-sV-ZpD" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="gs4-Yn-nnf"/>
+                            <constraint firstItem="c3D-Ia-1Oa" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="50" id="l5t-QU-NU0"/>
+                            <constraint firstItem="zvG-wc-qVx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="pJn-kJ-iD6"/>
+                            <constraint firstItem="zvG-wc-qVx" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="50" id="qIm-Ov-Xsx"/>
+                            <constraint firstItem="m0X-sV-ZpD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="sn9-el-y83"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="pdfView" destination="c3D-Ia-1Oa" id="AOY-kO-3Iv"/>
+                        <outlet property="webView" destination="zvG-wc-qVx" id="DJH-fO-Nuq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="24.800000000000001" y="35.532233883058474"/>
+        </scene>
+    </scenes>
+</document>
